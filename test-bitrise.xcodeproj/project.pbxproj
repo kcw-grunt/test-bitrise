@@ -14,6 +14,7 @@
 		C336C001253F717500282ECD /* test_bitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336C000253F717500282ECD /* test_bitriseTests.swift */; };
 		C336C00C253F717500282ECD /* test_bitriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336C00B253F717500282ECD /* test_bitriseUITests.swift */; };
 		C336C01D253F718E00282ECD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336C01C253F718E00282ECD /* MainView.swift */; };
+		C336C022253F76B700282ECD /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C336C021253F76B700282ECD /* Icon.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C336C00B253F717500282ECD /* test_bitriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_bitriseUITests.swift; sourceTree = "<group>"; };
 		C336C00D253F717500282ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C336C01C253F718E00282ECD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C336C021253F76B700282ECD /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C336BFED253F716C00282ECD /* test-bitrise */ = {
 			isa = PBXGroup;
 			children = (
+				C336C021253F76B700282ECD /* Icon.xcassets */,
 				C336BFEE253F716C00282ECD /* test_bitriseApp.swift */,
 				C336BFF0253F716C00282ECD /* ContentView.swift */,
 				C336C01C253F718E00282ECD /* MainView.swift */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C336C022253F76B700282ECD /* Icon.xcassets in Resources */,
 				C336BFF6253F717500282ECD /* Preview Assets.xcassets in Resources */,
 				C336BFF3253F717500282ECD /* Assets.xcassets in Resources */,
 			);
